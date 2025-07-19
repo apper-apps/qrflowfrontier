@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
+import Error from "@/components/ui/Error";
 
 const LanguageContext = createContext();
 
@@ -310,12 +311,12 @@ const translations = {
       "为文本、URL、WiFi凭据和联系卡片生成二维码",
       "使用相机或上传图像扫描二维码",
       "以多种格式下载二维码（PNG、JPG、JPEG、SVG）",
-      "具有流畅动画的美丽玻璃拟态设计",
+"具有流畅动画的美丽玻璃拟态设计",
       "支持RTL文本方向的多语言支持",
       "深色和浅色主题模式",
       "适用于所有设备的响应式设计"
     ],
-usageSteps: [
+    usageSteps: [
       "选择"创建二维码"生成新的二维码",
       "选择要编码的内容类型",
       "填写所需信息",
